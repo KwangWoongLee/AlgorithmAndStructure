@@ -27,6 +27,15 @@
     <ClInclude Include="StringUtils.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Search.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>src</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

@@ -1,13 +1,3 @@
-#define _CRTDBG_MAP_ALLOC
-
-#include <cstdlib>
-#include <crtdbg.h>
-
-#ifdef _DEBUG
-#define new new ( _NORMAL_BLOCK , __FILE__ , __LINE__ )
-#endif
-
-
 #include "stdafx.h"
 
 
@@ -117,6 +107,55 @@ int main()
 	//std::cout << pReverse << std::endl;
 
 	//delete pReverse;
+//
+
+//BinaryTree 클래스 테스트
+	//BinaryTree<int> tree(0);
+
+	//auto root = tree.GetRoot();
+
+	//auto left = tree.AddLeftNode(root, 1);
+	//auto right =  tree.AddRightNode(root, 2);
+
+
+	//tree.AddLeftNode(left, 3);
+	//tree.AddLeftNode(right, 4);
+
+	//std::cout << "PreOrder Test-----------------------" << std::endl;
+	//tree.PreOrder(root);
+
+	//std::cout << std::endl;
+
+	//std::cout << "InOrder Test-----------------------" << std::endl;
+	//tree.InOrder(root);
+
+	//std::cout << std::endl;
+
+	//std::cout << "PreOrder Test-----------------------" << std::endl;
+	//tree.PostOrder(root);
+
+//
+
+
+//Search 클래스 테스트
+
+//BinarySearch 테스트
+	//int arr[] = { 1, 2, 3, 5 , 7, 9};
+
+	//int resultIdx = Search<int>::GetInstance().BinarySearch(arr, 0, 5, 7);
+	//
+	//if (resultIdx < 0)
+	//{
+	//	//없음
+	//}
+
+	//else
+	//{
+	//	std::cout << resultIdx << std::endl;
+	//}
+//
+
+
 //
 
 	return 0;
